@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "id": "friendsforever",
+    "version": "${version}",
+    "name": "Cobblemon: Friends Forever",
+    "description": "The Friendship Revolution in Cobblemon",
+    "authors": ["Jaypixl7"],
+    "license": "MIT License",
+    "icon": "assets/friendsforever/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": ["io.jaypixl.friendsforever.fabric.FriendsForeverFabricMod"]
+    },
+    "depends": {
+        "minecraft": "1.21.1",
+        "cobblemon": ">=1.7.3 <1.8.1"
+    }
+}

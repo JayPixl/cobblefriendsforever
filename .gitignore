@@ -1,0 +1,40 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+/.architectury-transformer/
+# common/src/main/resources/assets/cobblemon/showdown
+# idea
+out
+*.ipr
+*.iws
+*.iml
+
+# other
+eclipse
+.idea
+
+**/*/.gradle
+**/*/build
+**/*/run
+
+# Files from Forge MDK
+forge*changelog.txt
+/showdown/
+/logs/
+.vscode/launch.json
+.vscode
+common/src/main/resources/assets/cobblemon/showdown
+
+# Generated files
+*/generated/resources/*
+/fabric/src/generated/resources/cobblemon-common.accesswidener
+
+# Local-only (never commit)
+com/
+.scratch/
+.agents
+skills-lock.json

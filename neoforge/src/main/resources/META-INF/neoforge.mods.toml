@@ -1,0 +1,33 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+#issueTrackerURL = "A valid URL to your issue tracker where people can open bug tickets"
+license = "MIT License"
+
+[[mods]]
+modId = "friendsforever"
+version = "${version}"
+displayName = "Cobblemon: Friends Forever"
+authors = "Jaypixl7"
+description = "The Friendship Revolution in Cobblemon"
+logoFile = "assets/friendsforever/icon.png"
+
+[[dependencies.friendsforever]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.friendsforever]]
+modId = "neoforge"
+mandatory = true
+versionRange = "[21.1.182,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.friendsforever]]
+modId = "cobblemon"
+mandatory = true
+versionRange = "[1.7.3,)"
+ordering = "AFTER"
+side = "BOTH"
